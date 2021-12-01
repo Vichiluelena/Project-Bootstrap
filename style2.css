@@ -1,0 +1,96 @@
+body{
+    width: 909px;
+    height: 1070px;
+    margin: auto;
+    
+    
+    
+
+    }
+    .intro{
+    
+
+    }
+
+    .container2
+    {
+        
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        background: rgb(189, 132, 111);
+    }
+
+
+    blockquote {
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 0em;
+        margin-left: 0px;
+        margin-right: 10px;
+        background: url(fon2.jfif);
+        width: 909px;
+    height: 70px;
+    
+    }
+     header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size:  40 px;
+    position:relative;
+    top: 10px;
+    background: url(fon1.jpg);
+    
+    width: 909px;
+    height: 70px;
+  }  
+  
+     header nav a{
+      text-decoration: none; /*cxbjxnbn;fb km*/
+      color:rgb(133, 20, 5);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      position:relative;
+    top: 10px;  
+  }
+
+
+    header nav a:hover{
+      color:tomato;
+  }
+    header .button{
+    width:25%; 
+    height:80%;
+    color:black;
+    text-decoration: none;
+
+  }
+  header .button h3{
+      
+      text-decoration: none;
+      top: 10px; 
+  }
+  
+
+  .text{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      font-weight: bold;
+      
+  }
+
+div#footer{
+    background:url(fon1.jpg);
+    width: 909px;
+    height: 100px;
+
+}
+    
+
+
+
+
+
+
