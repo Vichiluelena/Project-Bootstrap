@@ -241,6 +241,31 @@ header .button h3{
 }
 
 
+/*works*/
+ 
+.works{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.works__item{
+      width:25%;
+      height: 275px;  
+      margin-bottom: 100px;
+      
+
+}
+
+.works__photo{
+  border-bottom: 1px solid darkred; 
+border-right: darkred;
+  
+ 
+  
+  
+}
+
 /*footer*/
 #footer{
       display: grid;
