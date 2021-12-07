@@ -11,7 +11,7 @@ input{
   line-height: 16px;
   border: 2px solid rgb(190, 172, 165);
   border-radius: 5px;
-  
+
 
 }
 
@@ -20,6 +20,16 @@ input{
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
+
+}
+.form-container{
+  background-color:rgb(190, 172, 165);
+box-shadow: 0px 6px 50px rgb(241, 160, 127);
+border-radius: 20px;
+max-width:415px;
+padding-left: 30px;
+padding-right: 30px;
+
 
 }
   
