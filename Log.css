@@ -4,6 +4,22 @@
   box-sizing: border-box;
 
 }
+input{
+  height: 45px;
+  width:100%;
+  font-size: 14px;
+  line-height: 16px;
+  border: 2px solid rgb(190, 172, 165);
+  border-radius: 5px;
+  
 
+}
 
+.form-title{
+  color:coral;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+}
   
