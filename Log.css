@@ -11,25 +11,123 @@ input{
   line-height: 16px;
   border: 2px solid rgb(190, 172, 165);
   border-radius: 5px;
+padding-left: 25px;
+color:royalblue;
+
+}
+input:focus{
+  outline: none;
+  border:2px solid #c1d9fd;
+}
+
+main{
+background: cornsilk;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 
 
 }
 
+
+
+.circle{
+position: absolute;
+width: 534px;
+height: 534px;
+background: cornsilk;
+box-shadow: 0px 4px 70px 6px rgba(217, 229, 225, 0.25 );
+z-index: 1;
+border-radius: 50%;
+
+
+
+}
 .form-title{
-  color:coral;
+  color:rgb(10, 9, 8);
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
+  margin-bottom: 38px;
 
 }
 .form-container{
+  position: relative;
   background-color:rgb(190, 172, 165);
 box-shadow: 0px 6px 50px rgb(241, 160, 127);
 border-radius: 20px;
 max-width:415px;
+width: 100%;
 padding-left: 30px;
 padding-right: 30px;
+padding-top: 38px;
+padding-bottom: 38px;
+z-index: 2;
+
+}
+
+.form-fiel{
+margin-bottom: 13px;
+
+
+}
+
+.button{
+  display: block;
+  height: 45px;
+  width: 355px;
+  background: skyblue;
+  border-radius: 5px;
+  color:#fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+
+
+}
+
+
+.button:hover{
+background-color: slateblue;
+}
+a.button-Google{
+  text-decoration: none;
 
 
 }
   
+.button-Google{
+color:#c6cfdc;
+background: #f2f6ff;
+text-transform: uppercase;
+  text-align: center;
+  line-height: 45px;
+  display: block;
+  height: 45px;
+
+}
+
+.button-Google:hover{
+background: #e2e6f0;
+color:snow;
+
+
+}
+
+.divid{
+font-weight: 500;
+font-size: 19px;
+line-height: 14px;
+color: #405d87;
+text-align: center;
+padding-top: 25px;
+padding-bottom: 25px;
+
+
+}
