@@ -18,7 +18,7 @@ blockquote {
     margin-bottom: 0em;
     margin-left: 0px;
     margin-right: 10px;
-    background:rgb(173, 1, 1);
+    background:rgb(134, 110, 110);
     width: 1100px;
     height: 70px;
     text-align: right;
@@ -258,8 +258,8 @@ header .button h3{
 }
 
 .works__photo{
-  border-bottom: 1px solid darkred; 
-border-right: darkred;
+  border: 3px solid darkred; 
+border-right:3 px solid  darkred;
   
  
   
