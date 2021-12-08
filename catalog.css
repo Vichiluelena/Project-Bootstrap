@@ -1,0 +1,25 @@
+body{
+    width: 1100px;
+    height: 2000px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.catalog{
+    width: 1100px;
+    margin: 150px auto;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.product-main{
+
+}
+
+.product{
+    border-right: 1px solid #575e70;
+}
