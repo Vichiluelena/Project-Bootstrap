@@ -154,3 +154,14 @@ div#footer{
   margin-left:60px;
 }
 
+
+.section{
+  padding: 110px;
+}
+
+.section_title{
+  font-size: 48px;
+  margin: 0 auto 40 px;
+  text-align: center;
+  font-weight: 900;
+}
