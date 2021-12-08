@@ -12,18 +12,16 @@ a:hover{
     text-decoration: none;
 }
 
-.catalog{
-    display: flex;
-    margin: 30px auto;
-    width:33%;
-      height: 3000px;  
-      margin-bottom: 100px;
-
+.catalog {    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 100 px;
 }
 
 .product-main{
 width: 300px;
 float:center;
+
 }
 
 .product{
@@ -58,5 +56,5 @@ float:center;
 }
 
 .dot-bot{
-    border-bottom: 1px solid #575e70 ;
+    border-bottom: 10px solid #575e70 ;
 }
