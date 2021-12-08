@@ -1,5 +1,6 @@
 body{
     width: 1100px;
+    margin:0 auto;
 }
 *{
     margin:0;
@@ -22,7 +23,7 @@ header {
         justify-content: center;
 }
 
-.submenu{
+ul.submenu{
 flex-direction: column;
 position: absolute;
 
@@ -34,12 +35,11 @@ list-style: none;
 
 }
 
-.submenu li{
-
+ul.submenu li{
     position: relative;
 }
 
-li:hover > .submenu  {
+ li:hover > .submenu  {
 display: flex;
 
 }
@@ -147,13 +147,13 @@ a:hover{
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 100 px;
     padding: 200px 15px;
-    padding-left: 215px;
+    padding-left: 20px;
     
 }
 
 .product-main{
 width: 300px;
-float:center;
+float:right;
 
 }
 
@@ -161,6 +161,7 @@ float:center;
     border-right: 1px solid #575e70;
     border-left: 1px solid #575e70;
     border-top:1px solid #575e70 ;
+    text-align:center;
 }
 
 .product h2{
@@ -173,6 +174,7 @@ float:center;
 
 .product-img{
     text-align: left;
+    width: 300px;
     
 }
 
@@ -194,3 +196,35 @@ float:center;
     width: 300px;
 }
 /*catalog*/
+
+/*footer*/
+#footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top:-80px;
+}
+
+
+div#footer{
+    background:rgb(34, 34, 34);
+    width: 1100px;
+    height: 200px;
+}
+
+
+  
+#footer div h4 {
+    color:#aaaaaa;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+#footer div a{
+    color:#aaaaaa;
+    text-decoration: none;
+    margin-left:60px;
+}
