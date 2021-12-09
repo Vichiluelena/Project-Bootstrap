@@ -1,6 +1,7 @@
 body{
     width: 1100px;
     margin:0 auto;
+    height: 800px;
   }
   
   
@@ -9,6 +10,28 @@ body{
   *::before,
   *::after{
     box-sizing: border-box;
+  }
+  
+  .formular section{
+    height:500px;
+   width: 500px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 200px;
+    padding-top: 50px;
+
+  }
+  
+  div.formular{
+    margin-bottom: 200px;
+      display: flex ;
+      flex: wrap;
+
+  }
+  div.message{
+      position:left;
+      width: 400px;
+      height: 300px;
   }
   
   
@@ -113,42 +136,46 @@ body{
     top: 10px; 
   }
   
+  .text{
+    margin-top: 200px;
+    background-color: rgb(199, 198, 197);
+  }
+
+  .text img{
+    width: 1100px;
+  }
   
+  .partener{
+    background-color: rgb(182, 181, 179);
+  }
   
+  .waranty{
+    
+  }
   
   /*footer*/
-  #footer{
+  footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     position: absolute;
-    left: 0;
-    bottom: 0;
-    
-    width: 1100px;
-    left: 0;
-    bottom: 0;
-    height: 80px;
-    margin-left: 145px;
-      margin-top: 1000px;
-  }
-  
-  
-  div#footer{
+    margin-left: 25px;
     background:rgb(34, 34, 34);
     width: 1100px;
     height: 200px;
+    margin-top: 140px;
+    
   }
   
   
   
-  #footer div h4 {
+  footer div h4 {
     color:#aaaaaa;
     text-decoration: none;
     margin-left: 50px;
   }
   
-  #footer div a{
+  footer div a{
     color:#aaaaaa;
     text-decoration: none;
     margin-left:60px;

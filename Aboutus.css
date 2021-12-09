@@ -115,58 +115,30 @@ body{
     top: 10px; 
   }
   
-  div#information-information.container{
-    height:500px;
-   width: 1100px;
-    text-align: center;
-    margin-top: 200px;
-    margin-left: 20px;
-
-  }
-  
-  div.formular{
-      display: flex ;
-      flex: wrap;
-
-  }
-  div.message{
-      position:left;
-      width: 400px;
-      height: 300px;
-  }
-  
+ 
   /*footer*/
-  #footer{
+  footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     position: absolute;
-    width: 1100px;
-    height: 80px;
-    margin-left: 10px;
-    margin-top: 700px ;
-    padding-bottom: 10px;
-    padding-top: 34px;
-    
-    padding: 0 10px;
-  }
-  
-  
-  div#footer{
+    margin-left: 25px;
     background:rgb(34, 34, 34);
     width: 1100px;
     height: 200px;
+    margin-top: 140px;
+    
   }
   
   
   
-  #footer div h4 {
+  footer div h4 {
     color:#aaaaaa;
     text-decoration: none;
     margin-left: 50px;
   }
   
-  #footer div a{
+  footer div a{
     color:#aaaaaa;
     text-decoration: none;
     margin-left:60px;

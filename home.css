@@ -267,34 +267,29 @@ border-right:3 px solid  darkred;
 }
 
 /*footer*/
-#footer{
+footer{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       align-items: center;
-      position: relative;
-      left: 0;
-      bottom: 0;
-      margin-top:-80px;
-}
-
-
-div#footer{
+      position: absolute;
+      margin-left: 25px;
       background:rgb(34, 34, 34);
       width: 1100px;
       height: 200px;
-}
-
-
+      margin-top: 140px;
+      
+    }
     
-#footer div h4 {
+    
+    
+    footer div h4 {
       color:#aaaaaa;
       text-decoration: none;
       margin-left: 50px;
-}
-
-#footer div a{
+    }
+    
+    footer div a{
       color:#aaaaaa;
       text-decoration: none;
       margin-left:60px;
-}
-
+    }
