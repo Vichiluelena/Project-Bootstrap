@@ -56,7 +56,7 @@ header nav .menu-main li:after {
 }
 
 
-header nav ul.menu-main li:last-child:after {content: none;}
+
 header nav ul.menu-main a {
       text-decoration: none;
       font-family: 'Ubuntu Condensed', sans-serif;
@@ -72,8 +72,18 @@ header nav ul.menu-main a {
 
 
 
-header nav ul.menu-main a, header nav ul.menu-main a:visited {color: #9d999d;}
-header nav ul.menu-main a.current, header nav ul.menu-main a:hover{color: #feb386;}
+header nav ul.menu-main a, 
+header nav ul.menu-main a:visited 
+{
+      color: #575457;
+}/*culoarea la butoanele din nav*/
+
+header nav ul.menu-main a.current, 
+header nav ul.menu-main a:hover
+{
+      color: #fa7f33;
+}
+
 header nav ul.menu-main a:before,
 header nav ul.menu-main a:after {
       content: "";
@@ -86,26 +96,6 @@ header nav ul.menu-main a:after {
       background: #feb386;
       transition: .8s;
 }
-
-
-
-header nav ul.menu-main a:hover:before, .menu-main .current:before {left: 0;}
-header nav ul.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
-@media (max-width: 550px) {
-header nav ul.menu-main {padding-top: 0;}
-header nav ul.menu-main li {display: block;}
-header nav ul.menu-main li:after {content: none;}
-header nav ul.menu-main a {
-      padding: 25px 0 20px; 
-      margin: 0 30px;
-}
-}
-
-
-header nav a:hover{
-      color:rgb(235, 52, 19);
-}
-
 
 header .button{
       width:25%; 
@@ -130,8 +120,8 @@ header .button h3{
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width:1350px;
-      margin-left: -130px;
+      width:1150px;
+      margin-left: -25px;
 }
 
 
@@ -207,10 +197,13 @@ header .button h3{
 }
 
 /*features*/
+.container3{
+      width: 1100px;
+}
 
 .features{
       display:flex;
-      margin: 100px 0;
+      margin:5px 0;
       flex-wrap: wrap;
       background-color: #fff;
 
@@ -263,8 +256,8 @@ header .button h3{
 }
 
 .works__photo{
-  border: 3px solid darkred; 
-border-right:3 px solid  darkred;
+  border: 3px solid rgb(228, 65, 0); 
+border-right:3 px solid  rgb(223, 100, 0);
   
  
   

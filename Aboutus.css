@@ -46,7 +46,11 @@ body{
   }
   
   
-  header nav ul.menu-main li {display: inline-block;}
+  header nav ul.menu-main li 
+  {
+    display: inline-block;
+  }
+
   header nav .menu-main li:after {
       color: #606060;
       display: inline-block;
@@ -54,7 +58,10 @@ body{
   }
   
   
-  header nav ul.menu-main li:last-child:after {content: none;}
+  header nav ul.menu-main 
+   {
+     content: none;
+    }
   header nav ul.menu-main a {
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -70,8 +77,18 @@ body{
   
   
   
-  header nav ul.menu-main a, header nav ul.menu-main a:visited {color: #9d999d;}
-  header nav ul.menu-main a.current, header nav ul.menu-main a:hover{color: #feb386;}
+  header nav ul.menu-main a,
+   header nav ul.menu-main a:visited 
+   {
+     color: #333233;
+    }
+
+  header nav ul.menu-main a.current,
+   header nav ul.menu-main a:hover
+   {
+     color: #feb386;
+    }
+
   header nav ul.menu-main a:before,
   header nav ul.menu-main a:after {
     content: "";
@@ -87,22 +104,18 @@ body{
   
   
   
-  header nav ul.menu-main a:hover:before, .menu-main .current:before {left: 0;}
-  header nav ul.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
-  @media (max-width: 550px) {
-  header nav ul.menu-main {padding-top: 0;}
-  header nav ul.menu-main li {display: block;}
-  header nav ul.menu-main li:after {content: none;}
-  header nav ul.menu-main a {
-    padding: 25px 0 20px; 
-    margin: 0 30px;
-  }
-  }
-  
-  
-  header nav a:hover{
-    color:rgb(235, 52, 19);
-  }
+  header nav ul.menu-main a:hover:before,
+   .menu-main .current:before 
+   {
+     left: 0;
+    }
+
+
+  header nav ul.menu-main a:hover:after, 
+  .menu-main .current:after
+   {
+     right: 0;
+    }   
   
   
   header .button{
