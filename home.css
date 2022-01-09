@@ -31,8 +31,9 @@ header {
       position:absolute;
       top:0;
       left:0;
-      z-index: 1000px;
+      z-index: 3;
       width:100%;
+      font-weight: 900;
 }
 
 
@@ -45,6 +46,7 @@ header nav ul.menu-main {
       text-align: center;
       width: 1100px;
       height: 110px;  
+      
 }
 
 
@@ -58,16 +60,18 @@ header nav .menu-main li:after {
 
 
 header nav ul.menu-main a {
+      font-family: 'Inconsolata', monospace;
       text-decoration: none;
-      font-family: 'Ubuntu Condensed', sans-serif;
       letter-spacing: 2px;
       position: relative;
       padding-bottom: 20px;
       margin: 0 60px 0 15px;
-      font-size: 17px;
+      font-size: 20px;
       text-transform: uppercase;
       display: inline-block;
       transition: color .2s;
+      z-index: 2;
+      font-weight: 700;
 }
 
 
@@ -122,6 +126,8 @@ header .button h3{
       justify-content: center;
       width:1150px;
       margin-left: -25px;
+      opacity:0.8;
+      z-index: 0;
 }
 
 
@@ -198,11 +204,26 @@ header .button h3{
 
 .promotion{
       width: 1100px;
+      border: 2px solid rgba(119, 17, 17, 0.123);
+      padding: 10px;
+      margin-top:100px;
+      font-family: 'Inconsolata', monospace;
+      font-weight: bolder;
+      text-align: center;
+      
+
 
 }
 
 .promotion-ikon{
-      width: 1100px;
+      width: 1000px;
+      
+}
+.promotion h1{
+      font-family: 'Indie Flower', cursive;
+      color:rgb(255, 72, 0);
+      text-decoration: underline;
+
 }
 
 /*features*/
@@ -231,18 +252,22 @@ header .button h3{
 }
 
 .features__title{
-      font-size: 14px;
+      font-size: 18px;
       color:rgb(214, 85, 34);
-      font-weight: 800;
+      
       text-transform: uppercase;
       margin-bottom: 15px;
-
+      
+      
+font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 .features__text{
       font-size: 14px;
       color:rgb(192, 56, 2);
       line-height: 1.5;
+      font-family: 'Inconsolata', monospace;
+      font-weight: bolder;
 
 }
 
@@ -284,19 +309,29 @@ footer{
       width: 1100px;
       height: 200px;
       margin-top: 50px;
+      font-family: 'Inconsolata', monospace;
+      font-weight: bold;
+      z-index: 0;
+
       
     }
     
     
     
     footer div h4 {
-      color:#242424;
+      color:#000000;
       text-decoration: none;
       margin-left: 50px;
+      
     }
     
     footer div a{
-      color:#131212;
+      color:#000000;
       text-decoration: none;
       margin-left:60px;
+      font-weight: 900;
+
     }
+
+
+    
