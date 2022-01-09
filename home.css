@@ -196,6 +196,15 @@ header .button h3{
       font-weight: bold;
 }
 
+.promotion{
+      width: 1100px;
+
+}
+
+.promotion-ikon{
+      width: 1100px;
+}
+
 /*features*/
 .container3{
       width: 1100px;
@@ -251,7 +260,7 @@ header .button h3{
       width:25%;
       height: 275px;  
       margin-bottom: 100px;
-      
+      margin-top:50px;
 
 }
 
@@ -270,24 +279,24 @@ footer{
       grid-template-columns: 1fr 1fr 1fr 1fr;
       align-items: center;
       position: absolute;
-      margin-left: 25px;
-      background:rgb(34, 34, 34);
+      margin-left: 10px;
+      background-image: url(fon1.jpg);
       width: 1100px;
       height: 200px;
-      margin-top: 140px;
+      margin-top: 50px;
       
     }
     
     
     
     footer div h4 {
-      color:#aaaaaa;
+      color:#242424;
       text-decoration: none;
       margin-left: 50px;
     }
     
     footer div a{
-      color:#aaaaaa;
+      color:#131212;
       text-decoration: none;
       margin-left:60px;
     }
