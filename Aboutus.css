@@ -39,6 +39,9 @@ header nav ul.menu-main {
   width: 1100px;
   height: 110px;  
   background-image: url(fon1.jpg);
+  text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px aqua,
+
+0 0 30px blue, 0 0 35px purple;
   
 }
 
@@ -110,34 +113,59 @@ header .button h3{
   top: 10px; 
 }
 
-  
+ 
+.info {
+  height:120px;
+width:500px;
+background-color:#c7fcec ;
+border:left 4px solid #ff0026 ;
+z-index:1;
+}
+
+.about {
+  margin-top: 500px;
+  z-index: 0;
+
+}
+
+
+
  
   /*footer*/
-  footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: center;
-    position: absolute;
-    margin-left: 25px;
-    background:rgb(34, 34, 34);
-    width: 1100px;
-    height: 200px;
-    margin-top: 140px;
-    
-  }
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  position: absolute;
+  margin-left: 10px;
+  background-image: url(fon1.jpg);
+  width: 1100px;
+  height: 200px;
+  margin-top: 50px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  z-index: 0;
+  text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px aqua,
+
+0 0 30px blue, 0 0 35px purple;
+}
+
+
+
+footer div h4 {
+  color:#000000;
+  text-decoration: none;
+  margin-left: 50px;
   
-  
-  
-  footer div h4 {
-    color:#aaaaaa;
-    text-decoration: none;
-    margin-left: 50px;
-  }
-  
-  footer div a{
-    color:#aaaaaa;
-    text-decoration: none;
-    margin-left:60px;
-  }
+}
+
+footer div a{
+  color:#000000;
+  text-decoration: none;
+  margin-left:60px;
+  font-weight: 900;
+
+}
+
   
   
