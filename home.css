@@ -50,7 +50,10 @@ header nav ul.menu-main {
 }
 
 
-header nav ul.menu-main li {display: inline-block;}
+header nav ul.menu-main li {
+      display: inline-block;
+}
+
 header nav .menu-main li:after {
         color: #606060;
         display: inline-block;
@@ -154,7 +157,7 @@ header .button h3{
 .intro__subtitle{
       font-size: 22px;
       line-height: 1.5;
-      font-weight: 400;
+      font-weight: 900;
       margin-bottom: 60px;
 }
 
@@ -254,12 +257,9 @@ header .button h3{
 .features__title{
       font-size: 18px;
       color:rgb(214, 85, 34);
-      
       text-transform: uppercase;
       margin-bottom: 15px;
-      
-      
-font-family: 'Mochiy Pop P One', sans-serif;
+      font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 .features__text{
@@ -277,8 +277,6 @@ font-family: 'Mochiy Pop P One', sans-serif;
 .works{
   display: flex;
   flex-wrap: wrap;
-  
-  
 }
 
 .works__item{
@@ -286,16 +284,11 @@ font-family: 'Mochiy Pop P One', sans-serif;
       height: 275px;  
       margin-bottom: 100px;
       margin-top:50px;
-
 }
 
 .works__photo{
-  border: 3px solid rgb(228, 65, 0); 
-border-right:3 px solid  rgb(223, 100, 0);
-  
- 
-  
-  
+      border: 3px solid rgb(228, 65, 0); 
+      border-right:3 px solid  rgb(223, 100, 0);
 }
 
 /*footer*/
@@ -312,8 +305,6 @@ footer{
       font-family: 'Inconsolata', monospace;
       font-weight: bold;
       z-index: 0;
-
-      
     }
     
     
