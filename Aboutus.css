@@ -39,9 +39,7 @@ header nav ul.menu-main {
   width: 1100px;
   height: 110px;  
   background-image: url(fon1.jpg);
-  text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px aqua,
-
-0 0 30px blue, 0 0 35px purple;
+  text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px aqua, 0 0 30px blue, 0 0 35px purple;
   
 }
 
@@ -115,17 +113,34 @@ header .button h3{
 
  
 .info {
-  height:120px;
-width:500px;
-background-color:#c7fcec ;
-border:left 4px solid #ff0026 ;
-z-index:1;
+  margin-top: 150px;
+  height:500px;
+  width:1100px;
+  background-color:#e7e7e7 ;
+  z-index:1;
+  padding:10px;
+  text-align: center;
+  font-size: 20px;;
+}
+
+.info img{
+  width: 1000px;
 }
 
 .about {
-  margin-top: 500px;
+  margin-top: 50px;
   z-index: 0;
+  width: 1100px;
+  background-color:#d63b3b;
+  height: 600px;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+}
 
+.about p {
+  font-family: 'Inconsolata', monospace;
+  font-weight: bolder;
 }
 
 
@@ -137,7 +152,7 @@ footer{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   position: absolute;
-  margin-left: 10px;
+  margin-left: 1px;
   background-image: url(fon1.jpg);
   width: 1100px;
   height: 200px;
@@ -145,9 +160,7 @@ footer{
   font-family: 'Inconsolata', monospace;
   font-weight: bold;
   z-index: 0;
-  text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px aqua,
-
-0 0 30px blue, 0 0 35px purple;
+  text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px aqua, 0 0 30px blue, 0 0 35px purple;
 }
 
 

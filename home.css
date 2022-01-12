@@ -12,18 +12,7 @@ body{
     box-sizing: border-box;
 }
 
-/*citate*/
-blockquote {
-    display: block;
-    margin-top: 0px;
-    margin-bottom: 0em;
-    margin-left: 0px;
-    margin-right: 10px;
-    background:rgb(134, 110, 110);
-    width: 1100px;
-    height: 70px;
-    text-align: right;
-}
+
     
  /*header+nav*/   
 header {
@@ -75,9 +64,7 @@ header nav ul.menu-main a {
       transition: color .2s;
       z-index: 2;
       font-weight: 700;
-      text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px aqua,
-
-0 0 30px blue, 0 0 35px purple;
+      text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px aqua, 0 0 30px blue, 0 0 35px purple;
 }
 
 
@@ -193,35 +180,19 @@ header .button h3{
 }
 
 
-.container2{
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
-      background: rgb(189, 132, 111);
-}
-   
- 
-
-.text{
-      display:grid;
-      grid-template-columns: 1fr 1fr;
-      font-weight: bold;
-}
-
+/*promotion*/
 .promotion{
       width: 1100px;
       border: 2px solid rgba(119, 17, 17, 0.123);
       padding: 10px;
-      margin-top:100px;
+      margin-top:50px;
       font-family: 'Inconsolata', monospace;
       font-weight: bolder;
       text-align: center;
-      
-
-
+      background-color: #c2c1c1;
 }
 
-.promotion-ikon{
+.promotion-icon{
       width: 1000px;
       
 }
@@ -290,8 +261,8 @@ header .button h3{
 }
 
 .works__photo{
-      border: 3px solid rgb(228, 65, 0); 
-      border-right:3 px solid  rgb(223, 100, 0);
+      border: 3px solid rgb(14, 12, 11); 
+      
 }
 
 /*footer*/
@@ -308,9 +279,7 @@ footer{
       font-family: 'Inconsolata', monospace;
       font-weight: bold;
       z-index: 0;
-      text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px aqua,
-
-0 0 30px blue, 0 0 35px purple;
+      text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px aqua, 0 0 30px blue, 0 0 35px purple;
     }
     
     
