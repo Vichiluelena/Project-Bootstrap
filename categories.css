@@ -33,6 +33,7 @@ body{
   cursor: pointer; /* Pointer/hand icon */
   width: 100%; /* Set a width if needed */
   display: block; /* Make the buttons appear below each other */
+  height: 62px;
 }
 
 .btn-group button:not(:last-child) {
@@ -46,7 +47,7 @@ body{
 
 
 .grid-place{
-  margin-top: 200px;;
+  margin-top: 170px;;
   display: grid;
   grid-template-columns: 400px 700px;
   
@@ -144,6 +145,13 @@ header .button{
 header .button h3{  
   text-decoration: none;
   top: 10px; 
+}
+
+.four{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 1100px;
+  height: 200px;
 }
 
 
