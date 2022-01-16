@@ -138,9 +138,10 @@ float:right;
 
 }
 
-.product-img{
+.product-img img{
     text-align: left;
     width: 300px;
+    
     
 }
 
@@ -162,6 +163,9 @@ float:right;
     width: 300px;
 }
 /*catalog*/
+
+
+
 
 /*footer*/
     footer{
