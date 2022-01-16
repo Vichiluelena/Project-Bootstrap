@@ -13,27 +13,6 @@ body{
     box-sizing: border-box;
   }
   
-  .formular section{
-    height:500px;
-   width: 500px;
-    text-align: center;
-    margin-top: 0px;
-    margin-left: 200px;
-    padding-top: 50px;
-
-  }
-  
-  div.formular{
-    margin-bottom: 200px;
-      display: flex ;
-      flex: wrap;
-
-  }
-  div.message{
-      position:left;
-      width: 400px;
-      height: 300px;
-  }
   
   
   header {
@@ -129,6 +108,76 @@ body{
     top: 10px; 
   }
   
+.text img{
+  width: 1100px;
+  margin-top: 150px;
+
+}
+
+.text h1{
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;;
+
+}
+
+.text h2{
+  opacity:0.6;
+}
+.rounded {
+  counter-reset: li; 
+  list-style: none; 
+  font: 14px "Trebuchet MS", "Lucida Sans";
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  }
+
+/*1em=16px*/
+  .rounded a {
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  margin: .5em 0;
+  background: #DAD2CA;
+  color: #444;
+  text-decoration: none;
+  border-radius: .3em;
+  transition: .3s ease-out;
+  }
+
+
+  .rounded a:hover
+   {
+     background: #E9E4E0;
+    }
+
+
+  .rounded a:hover:before 
+  {
+    transform: rotate(360deg);
+  }
+  .rounded a:before 
+  {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -21px;
+  top: 50%;
+  margin-top: -21px;
+  background: #8FD4C1;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+  border: .48px solid white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 32px;
+  transition: all .3s ease-out;
+  }
+
+
+
+
+
   
   /*footer*/
   footer{
