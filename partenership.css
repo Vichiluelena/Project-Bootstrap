@@ -137,7 +137,7 @@ body{
   display: block;
   padding: .4em .4em .4em 2em;
   margin: .5em 0;
-  background: #DAD2CA;
+  background: #cfb090;
   color: #444;
   text-decoration: none;
   border-radius: .3em;
@@ -147,7 +147,7 @@ body{
 
   .rounded a:hover
    {
-     background: #E9E4E0;
+     background: #ebbb95;
     }
 
 
