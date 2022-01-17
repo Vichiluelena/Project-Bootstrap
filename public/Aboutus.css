@@ -17,7 +17,7 @@ body{
     margin-top: 200px;
   }
   
-  /*header+nav*/   
+/*header*/   
 header {
   border-bottom: 3px solid #272525 ;
   position:absolute;
@@ -44,17 +44,6 @@ header nav ul.menu-main {
 }
 
 
-header nav ul.menu-main li {
-  display: inline-block;
-}
-
-header nav .menu-main li:after {
-    color: #606060;
-    display: inline-block;
-    vertical-align:top;
-}
-
-
 
 header nav ul.menu-main a {
   font-family: 'Inconsolata', monospace;
@@ -76,27 +65,15 @@ header nav ul.menu-main a {
 header nav ul.menu-main a, 
 header nav ul.menu-main a:visited 
 {
-  color: #575457;
+      color: #cf7258;
 }/*culoarea la butoanele din nav*/
 
 header nav ul.menu-main a.current, 
 header nav ul.menu-main a:hover
 {
-  color: #fa7f33;
+      color: #e95b03;
 }
 
-header nav ul.menu-main a:before,
-header nav ul.menu-main a:after {
-  content: "";
-  position: absolute;
-  height: 4px;
-  top: auto;
-  right: 50%;
-  bottom: 5px;
-  left: 50%;
-  background: #feb386;
-  transition: .8s;
-}
 
 header .button{
   width:25%; 
@@ -111,7 +88,8 @@ header .button h3{
   top: 10px; 
 }
 
- 
+
+ /*information*/
 .info {
   margin-top: 150px;
   height:500px;
@@ -127,21 +105,29 @@ header .button h3{
   width: 1000px;
 }
 
+
+/*about*/
 .about {
   margin-top: 50px;
   z-index: 0;
   width: 1100px;
-  background-color:#d63b3b;
   height: 600px;
   font-size: 18px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 10px;
+  text-align: center;
 }
 
 .about p {
   font-family: 'Inconsolata', monospace;
-  font-weight: bolder;
+  font-weight: bold;
+  background: #cf7258;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+  
 }
+
 
 
 
