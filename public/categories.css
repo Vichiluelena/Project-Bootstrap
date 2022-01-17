@@ -14,46 +14,9 @@ body{
   padding:0;
 }
 
-.button a{
-  text-decoration: none;
-  color:bisque;
-}
 
 
-.btn-group{
-  
-  padding-left: 50px ;
- 
-}
-.btn-group button {
-  background-color: #f77847; /* Green background */
-  border: 1px solid rgb(214, 104, 1); /* Green border */
-  color: rgb(5, 5, 5); /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  width: 100%; /* Set a width if needed */
-  display: block; /* Make the buttons appear below each other */
-  height: 62px;
-}
-
-.btn-group button:not(:last-child) {
-  border-bottom: none; /* Prevent double borders */
-}
-
-/* Add a background color on hover */
-.btn-group button:hover {
-  background-color: #f8763a;
-}
-
-
-.grid-place{
-  margin-top: 170px;;
-  display: grid;
-  grid-template-columns: 400px 700px;
-  
-}
-
-
+/*header*/
 header {
   border-bottom: 3px solid #272525 ;
   position:absolute;
@@ -79,19 +42,6 @@ header nav ul.menu-main {
   
 }
 
-
-header nav ul.menu-main li {
-  display: inline-block;
-}
-
-header nav .menu-main li:after {
-    color: #606060;
-    display: inline-block;
-    vertical-align:top;
-}
-
-
-
 header nav ul.menu-main a {
   font-family: 'Inconsolata', monospace;
   text-decoration: none;
@@ -107,32 +57,18 @@ header nav ul.menu-main a {
   font-weight: 700;
 }
 
-
-
 header nav ul.menu-main a, 
 header nav ul.menu-main a:visited 
 {
-  color: #575457;
+      color: #cf7258;
 }/*culoarea la butoanele din nav*/
 
 header nav ul.menu-main a.current, 
 header nav ul.menu-main a:hover
 {
-  color: #fa7f33;
+      color: #e95b03;
 }
 
-header nav ul.menu-main a:before,
-header nav ul.menu-main a:after {
-  content: "";
-  position: absolute;
-  height: 4px;
-  top: auto;
-  right: 50%;
-  bottom: 5px;
-  left: 50%;
-  background: #feb386;
-  transition: .8s;
-}
 
 header .button{
   width:25%; 
@@ -147,14 +83,54 @@ header .button h3{
   top: 10px; 
 }
 
+/*/header*/
+.grid-place{
+  margin-top: 170px;;
+  display: grid;
+  grid-template-columns: 400px 700px;
+  
+}
+
+.button a{
+  text-decoration: none;
+  color:bisque;
+}
+
+
+.btn-group{
+  
+  padding-left: 50px ;
+ 
+}
+.btn-group button {
+  background-color: #f77847;
+  border: 1px solid rgb(214, 104, 1); 
+  color: rgb(5, 5, 5); 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  width: 100%; 
+  display: block;
+  height: 62px;
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #f8763a;
+}
+
+
+/*elements*/
 .four{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 1100px;
   height: 200px;
-  margin-left: 455px;
+  
 }
-
 
 .element{
   width: 275px;
@@ -171,9 +147,7 @@ header .button h3{
   
 }
 .element p{
-  text-align: right;
-  
-  
+  text-align: right; 
 }
 
 .element h2{
@@ -181,6 +155,7 @@ header .button h3{
   
 }
 
+/*brand*/
 .brands img{
   margin-top: 20px;
   width: 1100px;;
