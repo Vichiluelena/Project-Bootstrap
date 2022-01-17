@@ -34,19 +34,6 @@ header {
     
   }
   
-  
-  header nav ul.menu-main li {
-    display: inline-block;
-  }
-  
-  header nav .menu-main li:after {
-      color: #606060;
-      display: inline-block;
-      vertical-align:top;
-  }
-  
-  
-  
   header nav ul.menu-main a {
     font-family: 'Inconsolata', monospace;
     text-decoration: none;
@@ -63,31 +50,18 @@ header {
   }
   
   
-  
   header nav ul.menu-main a, 
   header nav ul.menu-main a:visited 
   {
-    color: #575457;
+        color: #cf7258;
   }/*culoarea la butoanele din nav*/
   
   header nav ul.menu-main a.current, 
   header nav ul.menu-main a:hover
   {
-    color: #fa7f33;
+        color: #e95b03;
   }
-  
-  header nav ul.menu-main a:before,
-  header nav ul.menu-main a:after {
-    content: "";
-    position: absolute;
-    height: 4px;
-    top: auto;
-    right: 50%;
-    bottom: 5px;
-    left: 50%;
-    background: #feb386;
-    transition: .8s;
-  }
+
   
   header .button{
     width:25%; 
@@ -120,7 +94,7 @@ a:hover{
 .product-main{
 width: 300px;
 background:rgb(240, 168, 140);
-float:right;
+float:right; 
 
 }
 
@@ -130,6 +104,7 @@ float:right;
     border-top:1px solid #575e70 ;
     text-align:center;
     background:rgb(240, 168, 140);
+    
 }
 
 .product h2{
@@ -149,14 +124,11 @@ float:right;
     
 }
 
-.price{
-
+.product-img h2 a{
+  text-decoration: none;
+  color:black;
 }
 
-.price span{
-
-
-}
 
 .price button {
     float: right;
